@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mini-react demo</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: ui-sans-serif, system-ui, -apple-system, "PingFang SC", sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 32px;
+        background: #0f1115;
+        color: #e6e8ee;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        display: grid;
+        gap: 24px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 28px;
+        background: linear-gradient(90deg, #61dafb, #a78bfa);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      section {
+        border: 1px solid #262b36;
+        border-radius: 12px;
+        padding: 20px;
+        background: #161a21;
+      }
+      h2 {
+        margin: 0 0 12px;
+        font-size: 16px;
+        color: #9aa4b2;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      button {
+        border: 1px solid #333a48;
+        background: #1f2531;
+        color: inherit;
+        border-radius: 8px;
+        padding: 6px 14px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      button:hover {
+        border-color: #61dafb;
+        color: #61dafb;
+      }
+      input {
+        flex: 1;
+        border: 1px solid #333a48;
+        background: #10141b;
+        color: inherit;
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+      .row {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 8px;
+      }
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        border: 1px solid #262b36;
+        border-radius: 8px;
+        padding: 8px 12px;
+      }
+      .hint {
+        color: #6b7688;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./dist/main.js"></script>
+  </body>
+</html>

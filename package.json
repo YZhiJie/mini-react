@@ -1,0 +1,19 @@
+{
+  "name": "mini-react",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "教学级 mini-react：手写 Fiber 架构、Hooks、Diff 与事件委托",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "build:example": "node scripts/build-example.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.9"
+  }
+}
